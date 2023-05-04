@@ -1,0 +1,21 @@
+@import "./color.scss";
+
+.userprofile{
+    display: flex;
+    gap: 2rem;
+}
+.userList{
+    >div{
+        padding: 1rem;
+    }
+}
+.fetchList,p,button{
+    padding: 30 px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.hoverItem{
+    margin:10rem 3rem;
+}

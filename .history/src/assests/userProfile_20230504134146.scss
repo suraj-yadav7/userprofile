@@ -1,0 +1,10 @@
+@import "./color.scss";
+
+.userprofile{
+    display: flex;
+}
+.userList{
+    >div{
+        padding: 1rem;
+    }
+}

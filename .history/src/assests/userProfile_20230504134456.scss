@@ -1,0 +1,15 @@
+@import "./color.scss";
+
+.userprofile{
+    display: flex;
+    gap: 2rem;
+}
+.userList{
+    >div{
+        padding: 1rem;
+    }
+}
+
+.hoverItem{
+    margin:10rem;
+}

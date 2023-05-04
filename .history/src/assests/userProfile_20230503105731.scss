@@ -1,0 +1,14 @@
+@import "./color.scss";
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 1rem;
+    background-color: black;
+    color: white;
+    >div>ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+}

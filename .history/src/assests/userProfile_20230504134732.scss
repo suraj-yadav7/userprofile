@@ -1,0 +1,20 @@
+@import "./color.scss";
+
+.userprofile{
+    display: flex;
+    gap: 2rem;
+}
+.userList{
+    >div{
+        padding: 1rem;
+    }
+}
+.fetchList{
+    padding: 30px;
+    margin: 5px;
+    color: green;
+}
+
+.hoverItem{
+    margin:10rem 3rem;
+}

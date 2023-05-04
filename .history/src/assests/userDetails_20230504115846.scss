@@ -1,0 +1,36 @@
+@import "./color.scss";
+
+.details{
+    display: flex;
+    gap: 6rem;
+    border: 1px solid black;
+    width: 60vw;
+    height: 40vh;
+    padding: 2rem;
+    // margin: 2rem 15rem;
+    text-align: center;
+  
+    >.sub1{
+        padding: 2rem 0;
+        p{
+            font-size: 1.1rem;
+        }
+    } 
+
+    >.sub2 {
+        text-align: center;
+    >img{
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid grey;
+        border-radius: 2rem;
+    }
+    
+    >div{
+        margin: 1rem 0;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+}
+}

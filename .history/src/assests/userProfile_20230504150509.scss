@@ -1,0 +1,32 @@
+@import "./color.scss";
+
+
+.main{
+    display: flex;
+
+}
+.userList{
+    >div{
+        padding: 1rem;
+        display: flex;
+        text-align: center;
+    }
+}
+.fetchList,p,button{
+    padding: 30 px;
+    margin: 1rem;
+    text-align: center;
+    
+    >p{
+        font: 400 1.1rem sans-serif;
+    }
+    >button{
+        background-color:beige;
+        border:1px solid grey;
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1rem;
+    }
+}
+
+

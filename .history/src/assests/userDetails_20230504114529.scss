@@ -1,0 +1,15 @@
+@import "./color.scss";
+
+.details{
+    display: flex;
+    gap: 1rem;
+    border: 1px solid black;
+    width: 40vw;
+    height: 40vh;
+    padding: 2rem;
+    margin: 2rem 21rem;
+    >.sub1 p{
+        font-size: 1.1rem;
+        // color: yellow
+    }
+}

@@ -1,0 +1,32 @@
+@import "./color.scss";
+
+.userprofile{
+    display: flex;
+    gap: 2rem;
+}
+.userList{
+    >div{
+        padding: 1rem;
+        display: flex;
+    }
+}
+.fetchList,p,button{
+    padding: 30 px;
+    margin: 5px;
+    text-align: center;
+    
+    >p{
+        font: 400 1.1rem sans-serif;
+    }
+    >button{
+        background-color:beige;
+        border:1px solid grey;
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1rem;
+    }
+}
+
+.hoverItem{
+    margin:10rem 3rem;
+}
